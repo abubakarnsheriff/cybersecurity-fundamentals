@@ -35,3 +35,14 @@ Every system is secure until you clearly define its attacker.
 - Data breaches
 - Financial loss
 - Reputational damage
+
+## Practical Example
+
+**Scenario:** Public-facing login portal for a financial application.
+
+- Spoofing: Credential stuffing attacks using leaked passwords
+- Tampering: Parameter manipulation in login requests
+- Repudiation: Lack of audit logs for failed login attempts
+- Information Disclosure: Verbose error messages leaking account status
+- Denial of Service: Automated login flooding
+- Elevation of Privilege: Broken role checks after authentication
